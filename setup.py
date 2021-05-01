@@ -10,11 +10,11 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name='imhist',
-    version='0.0.1',
+    version='0.0.3',
     author="mamdasn s",
     author_email="<mamdassn@gmail.com>",
     url="https://github.com/Mamdasn/imhist",
-    description='This model calculates the histogram of a given matrix fast.',
+    description='This model calculates the histogram, PMF and CMD of a given matrix fast.',
     long_description=long_description,
     long_description_content_type = "text/markdown",
     include_package_data=True,
@@ -23,7 +23,7 @@ setup(
     install_requires=[
         "numpy", 
         ],
-    keywords=['python', 'histogram', 'histogram of image'],
+    keywords=['python', 'histogram', 'pmf', 'cdf', 'histogram of image'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Science/Research",
