@@ -24,6 +24,6 @@ plt.show()
 ```  
 # Output
 This is a sample image:  
-[Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane.jpg "Sample Image")  
+[Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane.jpg  "Sample Image")  
 Histogram of the sample image:  
 [Histogram of the Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane-Histogram.jpg "Histogram of the Sample Image")
