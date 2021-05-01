@@ -1,5 +1,5 @@
 # imhist  
-This model calculates the histogram of a given matrix fast.  
+This model calculates the histogram, PMF and CMD of a given matrix fast.  
 
 # Usage  
 ```python
@@ -13,6 +13,8 @@ hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 v = hsv[:, :, 2].copy()
 
 v_hist = imhist(v)
+v_pmf = imhist(v, PMF=True)
+v_cdf = imcdf(v)
 
 plt.figure(num=1)
 plt.plot(np.arange(256), v_hist, 'b', label='Histogram')
