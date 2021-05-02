@@ -1,7 +1,15 @@
 # imhist  
 This model calculates the histogram, PMF and CMD of a given matrix fast.  
 
-# Usage  
+## Installation
+
+Run the following to install:
+
+```python
+pip install imhist
+```
+
+## Usage  
 ```python
 import cv2
 import numpy as np
@@ -24,7 +32,7 @@ plt.grid(which="both")
 plt.legend()
 plt.show()
 ```  
-# Output
+## Output
 This is a sample image:  
 ![Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane.jpg "Sample Image")  
 Histogram of the sample image:  
