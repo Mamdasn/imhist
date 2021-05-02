@@ -1,5 +1,5 @@
 # imhist  
-This model calculates the histogram, PMF and CMD of a given matrix fast.  
+This model calculates the histogram, PMF and CMD of a given image fast.  
 
 ## Installation
 
