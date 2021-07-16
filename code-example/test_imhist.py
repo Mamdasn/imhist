@@ -11,6 +11,7 @@ v_hist = imhist(v, PMF=False)
 v_pmf = imhist(v, PMF=True)
 v_cdf = imcdf(v)
 
+# Plot histogram of the image
 plt.figure(num=1)
 plt.plot(np.arange(256), v_hist, 'b', label='Histogram')
 plt.ylabel('Number of Occurrences')
@@ -18,6 +19,7 @@ plt.xlabel('Brightness')
 plt.grid(which="both")
 plt.legend()
 
+# Plot PMF of the image
 plt.figure(num=2)
 plt.plot(np.arange(256), v_pmf, 'g', label='PMF')
 plt.ylabel('Probability Mass Function')
@@ -25,6 +27,7 @@ plt.xlabel('Brightness')
 plt.grid(which="both")
 plt.legend()
 
+# Plot CDF of the image
 plt.figure(num=3)
 plt.plot(np.arange(256), v_cdf, 'r', label='CDF')
 plt.ylabel('Cumulative Distribution Function')
