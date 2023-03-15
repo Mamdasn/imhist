@@ -2,6 +2,8 @@
 [![Package Status](https://img.shields.io/pypi/status/imhist.svg)](https://pypi.org/project/imhist/)
 [![Downloads](https://pepy.tech/badge/imhist)](https://pepy.tech/project/imhist)
 [![License](https://img.shields.io/pypi/l/imhist.svg)](https://github.com/Mamdasn/imhist/blob/main/LICENSE)
+![Repository Size](https://img.shields.io/github/languages/code-size/mamdasn/imhist)
+
 
 # imhist  
 This model calculates the histogram, PMF and CMD of a given image fast.  
